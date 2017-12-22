@@ -43,7 +43,7 @@ end
 if Flag(2) == 1
     pixs_line = fliplr(pixs_line);
 end
-if Flag(1) == 1
+if Flag(1) == 1;
     pixs_line = [pixs_line(:,1) -1*pixs_line(:,2)];
 end
 
